@@ -12,7 +12,8 @@ We agree that the use of learned similarity metrics are quite common, and have b
 
 **Occlusion awareness in the loss function**
 
-Our novel view patch sampling is occlusion aware, as we explicitly mask pixels that are occluded when computing NCC and SSIM. The masking is given by rendering a novel view patch, unprojecting it into the world space using the rendered depth, projecting back to the training camera view, and comparing the angle of projection and the original patch rays with the threshold. We will clarify this in revision.
+Our novel view patch sampling is occlusion aware, as we explicitly mask pixels that are occluded when computing NCC and SSIM. The masking is given by rendering a novel view patch, unprojecting it into the world space using the rendered depth, projecting back to the training camera view, and comparing the angle of projection and the original patch rays with the threshold. We let Figure 1 in the rebuttal document to visualize this process.
+We will clarify this in revision.
 
 We thank the reviewer for the suggestion in the novel multi-patch synthesis; we find it interesting and will try it on our next project.
 
