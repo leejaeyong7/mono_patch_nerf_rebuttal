@@ -4,7 +4,7 @@ We acknowledge your concerns and questions and provide the clarifications in the
 
 **Question regarding the foreground fattening**
 
-Foreground fattening in patch-based MVS is largely caused by plane-based propagation of depth candidates and a patch-wise planar assumption in computing photometric scores. Our method does not suffer from foreground fattening because we do not make planar assumptions (current depth estimates are projected into other views to compute photometric scores), and the rendering loss discourages such artifacts. As suggested, Figure X (pdf in main response) shows the alignment of RGB image and the depth images. The image and the depth are aligned precisely, indicating that our method does not suffer from the foreground fattening.
+Foreground fattening in patch-based MVS is largely caused by plane-based propagation of depth candidates and a patch-wise planar assumption in computing photometric scores. Our method does not suffer from foreground fattening because we do not make planar assumptions (current depth estimates are projected into other views to compute photometric scores), and the rendering loss discourages such artifacts. As suggested, Figure 2 in the rebuttal document shows the alignment of RGB image and the depth images. The image and the depth are aligned precisely, indicating that our method does not suffer from the foreground fattening.
 
 **Using learned similarity metrics**
 
